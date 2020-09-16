@@ -13,6 +13,6 @@ jobs:
     - run: echo random-number ${{ steps.foo.outputs.random-number }} 
       shell: bash
     - id: foo1
-      uses: BijoyRayaroth/hello-world-composite-run-steps-action/myaction@v2
+      uses: BijoyRayaroth/hello-world-composite-run-steps-action/myaction@v3
       with:
-        who-to-greet: 'New Mona the Octocat'
+        someValue: 'Say hi'
