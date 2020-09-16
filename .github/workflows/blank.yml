@@ -13,6 +13,4 @@ jobs:
     - run: echo random-number ${{ steps.foo.outputs.random-number }} 
       shell: bash
     - id: foo1
-      uses: BijoyRayaroth/hello-world-composite-run-steps-action/myaction@v4
-      with:
-        someValue: 'Say hi'
+      uses: BijoyRayaroth/hello-world-composite-run-steps-action/myaction@v4     
